@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba34515fc82b64f37966f612cca1f4c9, type: 3}
+  m_Name: CubePlan
+  m_EditorClassIdentifier: 
+  m_ActionDefinitions:
+  - {fileID: 11400000, guid: 399012a44fe658e4d8d939e7396488b0, type: 2}
+  m_StateTerminationDefinitions:
+  - {fileID: 11400000, guid: 0e1a3e978d03bf24a91a6517b231b6a1, type: 2}
+  m_CustomHeuristic: 
+  m_DefaultHeuristicLower: -100
+  m_DefaultHeuristicAverage: 0
+  m_DefaultHeuristicUpper: 100
+  DiscountFactor: 0.95
